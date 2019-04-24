@@ -11,6 +11,7 @@ var emptyArray = [];
 function johnLennonFacts(facts){
   while facts.length > 0 {
     emptyArray.push(`${facts}!!!`)
+    facts.pop()
   };
   return emptyArray
 };
