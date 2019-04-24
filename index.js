@@ -12,7 +12,7 @@ function johnLennonFacts(facts){
   while facts.length > 0 {
     emptyArray.push(`${facts}!!!`)
   };
-  return emptyArray;
+  return emptyArray
 };
 
 function iLoveTheBeatles(num){
